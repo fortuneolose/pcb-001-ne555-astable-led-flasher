@@ -1,6 +1,6 @@
 LTspice 24.1.10 for Windows
 Circuit: C:\Users\avent\OneDrive\Documents\pcb-001-ne555-astable-led-flasher\simulation\simulation\ltspice\pcb001_ne555_astable.net
-Start Time: Fri Aug 14 10:25:39 2026
+Start Time: Fri Aug 14 19:09:56 2026
 solver = Normal
 Maximum thread count: 16
 tnom = 27
@@ -10,7 +10,7 @@ Direct Newton iteration for .op point succeeded.
 .step rbval=10000
 .step rbval=60000
 .step rbval=110000
-Total elapsed time: 0.279 seconds.
+Total elapsed time: 0.335 seconds.
 
 Files loaded:
 C:\Users\avent\OneDrive\Documents\pcb-001-ne555-astable-led-flasher\simulation\simulation\ltspice\pcb001_ne555_astable.net

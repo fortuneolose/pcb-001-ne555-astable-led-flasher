@@ -20,6 +20,8 @@ bool stateInitialised = false;
 
 unsigned long cycleRiseTime = 0;
 unsigned long fallTime = 0;
+bool haveRise = false;
+bool haveFall = false;
 
 double sumHigh = 0.0;
 double sumLow = 0.0;
@@ -104,9 +106,6 @@ void loop()
     {
       previousState = currentState;
       stateInitialised = true;
-
-      if (currentState)
-        cycleRiseTime = elapsed;
     }
 
     // Detect transition
@@ -122,7 +121,7 @@ void loop()
         Serial.println(vout, 4);
 
         // Complete a full RISE -> FALL -> RISE cycle
-        if (cycleRiseTime != 0 && fallTime > cycleRiseTime)
+        if (haveRise && haveFall)
         {
           unsigned long tHigh = fallTime - cycleRiseTime;
           unsigned long tLow = elapsed - fallTime;
@@ -136,6 +135,8 @@ void loop()
         }
 
         cycleRiseTime = elapsed;
+        haveRise = true;
+        haveFall = false;
       }
 
       // HIGH -> LOW: falling edge
@@ -147,7 +148,11 @@ void loop()
         Serial.print("\t");
         Serial.println(vout, 4);
 
-        fallTime = elapsed;
+        if (haveRise)
+        {
+          fallTime = elapsed;
+          haveFall = true;
+        }
       }
 
       previousState = currentState;

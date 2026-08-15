@@ -52,3 +52,16 @@ VCAP repeatedly moved between approximately 1/3 VCC and 2/3 VCC, consistent with
 Measured adjustable frequency range: approximately 0.6260 Hz to 4.8095 Hz
 
 G1D: PASS
+
+## Live Model Inspection
+
+On 2026-08-14, the live Tinkercad implementation was inspected against `circuit-connections.md`.
+
+- Electrical topology discrepancy: none observed
+- Component-value discrepancy: none observed
+- Potentiometer implementation: verified as a rheostat with the wiper tied to terminal 2
+- Arduino instrumentation: verified
+- Oscilloscope wiring: verified
+- Exact powered rail voltage during this inspection: not verified because the simulation remained stopped
+- Live waveforms during this inspection: not verified because the simulation remained stopped
+- Tinkercad reference-designator naming differs from the design nomenclature, but electrical values and connections agree

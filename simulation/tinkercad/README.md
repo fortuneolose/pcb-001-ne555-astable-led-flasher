@@ -6,7 +6,7 @@ This directory preserves reproducible artifacts and evidence from the Tinkercad 
 
 The interactive Tinkercad circuit is cloud-hosted. This directory preserves code, measurements, circuit documentation, screenshots, and verification evidence derived from the live model. LTspice remains the precision electrical simulation model. Tinkercad represents the virtual breadboard and implementation translation. KiCad will become the authoritative PCB schematic and layout source.
 
-The Tinkercad stage verifies practical pin mapping, component polarity, breadboard connectivity, potentiometer operation, instrumentation, and observable circuit behaviour. Do not claim that screenshots or code have been extracted until live browser inspection is complete.
+The Tinkercad stage verifies practical pin mapping, component polarity, breadboard connectivity, potentiometer operation, instrumentation, and observable circuit behaviour. Static screenshots and the Arduino logger source were extracted directly from the live model during the 2026-08-14 inspection workflow.
 
 ## Current Verification Gates
 
@@ -17,20 +17,32 @@ The Tinkercad stage verifies practical pin mapping, component polarity, breadboa
 
 G1D is supported by minimum, midpoint, and maximum operating-point measurements.
 
-Tinkercad project URL: PENDING LIVE TINKERCAD INSPECTION
+## Live Project Metadata
 
-## Expected Future Evidence
+- Project name: Spectacular Juttuli
+- Tinkercad project URL: https://www.tinkercad.com/things/cFG6PsBppi5-spectacular-juttuli/editel
+- Live inspection workflow date: 2026-08-14
+
+## Preserved Static Evidence
 
 - `evidence/breadboard-overview.png`
 - `evidence/ne555-pin-wiring.png`
 - `evidence/timing-network.png`
+- `evidence/potentiometer-wiring.png`
+- `evidence/led-output-stage.png`
+- `evidence/arduino-logger-wiring.png`
+- `evidence/arduino-code-panel.png`
+- `evidence/tinkercad-schematic-view.png`
+
+These files are genuine screenshots from the stopped live Tinkercad project. They do not establish powered waveforms or new measurement results.
+
+## Pending Dynamic Evidence
+
 - `evidence/potentiometer-minimum.png`
 - `evidence/potentiometer-midpoint.png`
 - `evidence/potentiometer-maximum.png`
-- `evidence/led-output-stage.png`
-- `evidence/arduino-logger-wiring.png`
 - `evidence/scope-vout.png`
 - `evidence/scope-vcap.png`
 - `evidence/serial-monitor-summary.png`
 
-These image files have not been created. Add them only after extraction from the live Tinkercad model.
+Do not create these files until the corresponding operating point or live output has been deliberately captured and reviewed.

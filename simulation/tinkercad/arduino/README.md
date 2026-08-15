@@ -9,8 +9,10 @@ The Arduino Uno R3 is instrumentation only; it does not implement the oscillator
 - A2 -> Tinkercad battery positive rail / VCC measurement
 - GND -> circuit common ground
 
-Authoritative logger source: PENDING LIVE TINKERCAD EXTRACTION
+## Authoritative Source
 
-Future source location: `simulation/tinkercad/arduino/pcb001_ne555_logger.ino`
+The authoritative logger source was extracted verbatim from the live Tinkercad model during the 2026-08-14 inspection workflow. It is stored at:
 
-The logger source must be copied from the live Tinkercad model rather than reconstructed from memory. Do not create or claim an authoritative source file until that extraction is complete.
+`simulation/tinkercad/arduino/pcb001_ne555_logger.ino`
+
+Do not reconstruct or replace this source from memory. Future changes must remain traceable to an explicitly reviewed live-model revision.

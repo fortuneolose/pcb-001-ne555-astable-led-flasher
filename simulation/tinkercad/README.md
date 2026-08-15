@@ -36,13 +36,25 @@ G1D is supported by minimum, midpoint, and maximum operating-point measurements.
 
 These files are genuine screenshots from the stopped live Tinkercad project. They do not establish powered waveforms or new measurement results.
 
-## Pending Dynamic Evidence
+## Corrected Dynamic Verification
 
-- `evidence/potentiometer-minimum.png`
-- `evidence/potentiometer-midpoint.png`
-- `evidence/potentiometer-maximum.png`
-- `evidence/scope-vout.png`
-- `evidence/scope-vcap.png`
-- `evidence/serial-monitor-summary.png`
+On 2026-08-15, the Arduino logger was hardened against partial boundary cycles; the corrected source is preserved in commit `67e7f33`. The minimum, midpoint, and maximum operating points were re-run and all three passed. Genuine Serial Monitor and potentiometer evidence was captured at every operating point, with useful VOUT and VCAP scope evidence captured at midpoint and maximum. The electrical circuit itself was unchanged.
 
-Do not create these files until the corresponding operating point or live output has been deliberately captured and reviewed.
+Corrected result records:
+
+- `results/minimum_corrected_logger_2026-08-15.txt`
+- `results/midpoint_corrected_logger_2026-08-15.txt`
+- `results/maximum_corrected_logger_2026-08-15.txt`
+
+Dynamic evidence:
+
+- `evidence/potentiometer-minimum-2026-08-15.png`
+- `evidence/serial-minimum-corrected-2026-08-15.png`
+- `evidence/potentiometer-midpoint-2026-08-15.png`
+- `evidence/serial-midpoint-corrected-2026-08-15.png`
+- `evidence/scope-vout-midpoint-2026-08-15.png`
+- `evidence/scope-vcap-midpoint-2026-08-15.png`
+- `evidence/potentiometer-maximum-2026-08-15.png`
+- `evidence/serial-maximum-corrected-2026-08-15.png`
+- `evidence/scope-vout-maximum-2026-08-15.png`
+- `evidence/scope-vcap-maximum-2026-08-15.png`

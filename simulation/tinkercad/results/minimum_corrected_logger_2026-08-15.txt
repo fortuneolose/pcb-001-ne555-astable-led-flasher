@@ -1,0 +1,18 @@
+Project: PCB-001 — Adjustable NE555 Astable LED Flasher
+Verification stage: G1D Tinkercad Virtual Breadboard Verification
+Potentiometer setting: Minimum
+Capture duration: 8000 ms
+Sample interval: 10 ms
+Complete cycles analysed: 37
+Average tHIGH: 138.351 ms
+Average tLOW: 69.486 ms
+Average period: 207.838 ms
+Frequency: 4.8114 Hz
+Duty cycle: 66.567 %
+VCAP minimum: 1.5005 V
+VCAP maximum: 2.9912 V
+VOUT minimum: 0.0000 V
+VOUT maximum: 4.3793 V
+Average VCC: 4.4900 V
+Provenance: Live Tinkercad Arduino Uno R3 instrumentation using corrected logger from commit 67e7f33
+Date: 2026-08-15

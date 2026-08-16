@@ -5,6 +5,212 @@
 	(uuid "b0c8241f-7280-4983-bb24-fcd4e712ed60")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Screw_Terminal_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x02"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Screw_Terminal_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -118,164 +324,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector_Generic:Conn_01x02"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x02_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1172,7 +1220,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Timer:NE555D"
+		(symbol "Timer:NE555P"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1189,7 +1237,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "NE555D"
+			(property "Value" "NE555P"
 				(at 2.54 8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1200,7 +1248,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 				(at 0 -24.13 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1222,7 +1270,7 @@
 					)
 				)
 			)
-			(property "Description" "Precision Timers, 555 compatible, SOIC-8"
+			(property "Description" "Precision Timers, 555 compatible, PDIP-8"
 				(at 0 -21.59 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1244,7 +1292,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+			(property "ki_fp_filters" "DIP*W7.62mm*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1255,7 +1303,7 @@
 					)
 				)
 			)
-			(symbol "NE555D_0_0"
+			(symbol "NE555P_0_0"
 				(pin power_in line
 					(at 0 -10.16 90)
 					(length 2.54)
@@ -1293,7 +1341,7 @@
 					)
 				)
 			)
-			(symbol "NE555D_0_1"
+			(symbol "NE555P_0_1"
 				(rectangle
 					(start -7.62 7.62)
 					(end 7.62 -7.62)
@@ -1306,7 +1354,7 @@
 					)
 				)
 			)
-			(symbol "NE555D_1_1"
+			(symbol "NE555P_1_1"
 				(pin input line
 					(at -10.16 -5.08 0)
 					(length 2.54)
@@ -1795,12 +1843,6 @@
 		(uuid "061fa3f2-1701-4400-86b5-e06aa9f0ea8c")
 	)
 	(junction
-		(at 194.31 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "07a0858b-0f93-424c-b840-358daf573c82")
-	)
-	(junction
 		(at 157.48 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1813,10 +1855,10 @@
 		(uuid "27e223ce-2249-4870-8cf4-06e70dc21603")
 	)
 	(junction
-		(at 181.61 102.87)
+		(at 129.54 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "46b20fd4-9e93-438e-8959-cc0eb230931b")
+		(uuid "3136c382-f177-4a22-a601-a12d128c2848")
 	)
 	(junction
 		(at 134.62 78.74)
@@ -1849,16 +1891,10 @@
 		(uuid "c7b41fc2-c9e3-45a0-beaf-ba1ba3c1fd91")
 	)
 	(junction
-		(at 186.69 102.87)
+		(at 181.61 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ca19ca78-1cf2-4d8c-9790-f9e3c7b49981")
-	)
-	(junction
-		(at 129.54 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f7113859-b655-4bea-8f95-c8cec323017f")
+		(uuid "e76f1dde-9560-44b7-9ecc-cc3e584c7ea0")
 	)
 	(wire
 		(pts
@@ -1892,7 +1928,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 99.06) (xy 129.54 99.06)
+			(xy 124.46 96.52) (xy 129.54 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1919,26 +1955,6 @@
 			(type default)
 		)
 		(uuid "0c18c32d-f8b9-46c3-978b-94d2e6d19871")
-	)
-	(wire
-		(pts
-			(xy 116.84 101.6) (xy 116.84 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d5ffb54-0a45-4138-ba18-1954582ac5c7")
-	)
-	(wire
-		(pts
-			(xy 125.73 106.68) (xy 125.73 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11fbcb39-828d-4c69-9a00-03e3d4e5495b")
 	)
 	(wire
 		(pts
@@ -2042,16 +2058,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 106.68) (xy 125.73 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "402afd12-13df-4258-97d6-59da77e606a8")
-	)
-	(wire
-		(pts
 			(xy 139.7 116.84) (xy 143.51 116.84)
 		)
 		(stroke
@@ -2092,7 +2098,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 96.52) (xy 129.54 99.06)
+			(xy 129.54 96.52) (xy 129.54 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2159,16 +2165,6 @@
 			(type default)
 		)
 		(uuid "716af268-64b0-47ee-8926-1b12413d82bc")
-	)
-	(wire
-		(pts
-			(xy 186.69 102.87) (xy 194.31 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72f89df9-8f95-4c2a-ab22-4bc2ebb74c67")
 	)
 	(wire
 		(pts
@@ -2322,16 +2318,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 99.06) (xy 129.54 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b09fe8f9-c831-4ca6-8ac2-19f902143d9f")
-	)
-	(wire
-		(pts
 			(xy 148.59 100.33) (xy 148.59 97.79)
 		)
 		(stroke
@@ -2359,6 +2345,16 @@
 			(type default)
 		)
 		(uuid "c063748d-7dad-4709-a015-99cb387e4a6f")
+	)
+	(wire
+		(pts
+			(xy 124.46 96.52) (xy 124.46 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3ac3906-4f3b-4a9b-8531-201785d0c108")
 	)
 	(wire
 		(pts
@@ -2550,7 +2546,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0a35f9d9-464e-4919-a551-369058bd97ee")
 		(property "Reference" "#PWR04"
 			(at 139.7 106.68 0)
@@ -2564,7 +2559,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 139.7 97.79 0)
+			(at 139.446 99.314 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2619,7 +2614,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Timer:NE555D")
+		(lib_id "Timer:NE555P")
 		(at 170.18 102.87 0)
 		(unit 1)
 		(body_style 1)
@@ -2639,14 +2634,15 @@
 				)
 			)
 		)
-		(property "Value" "NE555D"
-			(at 173.736 105.156 0)
+		(property "Value" "NE555P"
+			(at 169.926 105.156 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
@@ -2671,7 +2667,7 @@
 				)
 			)
 		)
-		(property "Description" "Precision Timers, 555 compatible, SOIC-8"
+		(property "Description" "Precision Timers, 555 compatible, PDIP-8"
 			(at 170.18 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -2802,10 +2798,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2fa855a2-9f5d-4080-9d63-576a9edff265")
 		(property "Reference" "TP1"
-			(at 137.16 71.6279 0)
+			(at 133.35 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2816,7 +2811,7 @@
 			)
 		)
 		(property "Value" "+5 V"
-			(at 137.16 74.1679 0)
+			(at 131.826 77.216 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3042,7 +3037,7 @@
 		(dnp no)
 		(uuid "652931d8-9570-4511-a63b-470074612c72")
 		(property "Reference" "C2"
-			(at 153.67 75.184 0)
+			(at 158.75 80.772 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3053,7 +3048,7 @@
 			)
 		)
 		(property "Value" "10 nF"
-			(at 153.67 77.724 0)
+			(at 157.48 84.836 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3121,10 +3116,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "70218402-294f-481a-9904-88378d96e55f")
 		(property "Reference" "R2"
-			(at 119.3801 81.28 0)
+			(at 116.84 76.708 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3135,7 +3129,7 @@
 			)
 		)
 		(property "Value" "10 kOhm"
-			(at 116.8401 81.28 0)
+			(at 114.046 81.026 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3203,10 +3197,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "78c79ec8-ff6d-4422-a972-1769aafbdc70")
 		(property "Reference" "R1"
-			(at 130.8101 81.28 0)
+			(at 128.27 76.708 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3217,7 +3210,7 @@
 			)
 		)
 		(property "Value" "10 kOhm"
-			(at 128.2701 81.28 0)
+			(at 125.222 81.026 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3285,10 +3278,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7f8e62d3-f4e3-404c-a2ed-7377a08b1c04")
 		(property "Reference" "TP3"
-			(at 184.15 97.0279 0)
+			(at 180.34 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3299,7 +3291,7 @@
 			)
 		)
 		(property "Value" "VOUT"
-			(at 184.15 99.5679 0)
+			(at 179.324 104.648 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3364,10 +3356,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9405f483-9f10-4825-b70f-a89580f7c42b")
 		(property "Reference" "R3"
-			(at 201.93 96.52 90)
+			(at 201.93 100.584 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3377,7 +3368,7 @@
 			)
 		)
 		(property "Value" "330 Ohm"
-			(at 201.93 99.06 90)
+			(at 201.93 105.156 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3436,7 +3427,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 116.84 101.6 0)
+		(at 124.46 104.14 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3447,29 +3438,29 @@
 		(fields_autoplaced yes)
 		(uuid "969a53f8-5cfb-4389-8db8-40882e14555e")
 		(property "Reference" "TP2"
-			(at 119.38 97.0279 0)
+			(at 127 106.1719 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "GND"
-			(at 119.38 99.5679 0)
+			(at 127 108.7119 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
-			(at 121.92 101.6 0)
+			(at 119.38 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3480,7 +3471,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 101.6 0)
+			(at 119.38 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3491,7 +3482,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 116.84 101.6 0)
+			(at 124.46 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3600,7 +3591,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c6f4bac2-f2c6-4464-a691-5955927aaa99")
 		(property "Reference" "#PWR02"
 			(at 129.54 106.68 0)
@@ -3614,7 +3604,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 129.54 105.41 0)
+			(at 130.048 100.584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3678,10 +3668,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d4339129-1217-4de3-960d-b67241fd6ff5")
 		(property "Reference" "RV1"
-			(at 107.9501 76.2 0)
+			(at 110.49 82.042 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3692,7 +3681,7 @@
 			)
 		)
 		(property "Value" "100 kOhm"
-			(at 105.4101 76.2 0)
+			(at 111.506 75.692 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3798,7 +3787,7 @@
 		(dnp no)
 		(uuid "d6b96685-c2a8-455b-843a-5003e1268741")
 		(property "Reference" "TP4"
-			(at 111.76 89.916 0)
+			(at 109.982 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3809,7 +3798,7 @@
 			)
 		)
 		(property "Value" "VCAP"
-			(at 112.522 93.472 0)
+			(at 109.22 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3874,7 +3863,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "db4c8311-14cc-4562-82c8-bf83b4a1ca40")
 		(property "Reference" "#PWR08"
 			(at 132.08 78.74 0)
@@ -3888,7 +3876,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 140.97 78.74 0)
+			(at 136.652 80.772 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3965,7 +3953,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 156.21 109.728 0)
+			(at 153.924 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4031,7 +4019,7 @@
 		(dnp no)
 		(uuid "df440b8e-b02f-4a1d-944b-f8cdc3d0fe96")
 		(property "Reference" "D1"
-			(at 193.548 97.282 0)
+			(at 190.5 100.076 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4041,7 +4029,7 @@
 			)
 		)
 		(property "Value" "red LED"
-			(at 193.548 99.314 0)
+			(at 190.754 105.156 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4197,7 +4185,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e6648e61-21d2-4991-8134-ab65998174ef")
 		(property "Reference" "#PWR03"
 			(at 151.13 90.17 0)
@@ -4211,7 +4198,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 151.13 81.28 0)
+			(at 150.876 82.804 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4357,7 +4344,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f0088321-bd03-424c-9bc7-05800884dcab")
 		(property "Reference" "#PWR01"
 			(at 166.37 86.36 0)
@@ -4371,7 +4357,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 166.37 77.47 0)
+			(at 166.37 78.994 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4426,7 +4412,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
+		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 148.59 114.3 0)
 		(unit 1)
 		(body_style 1)
@@ -4480,7 +4466,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 148.59 114.3 0)
 			(hide yes)
 			(show_name no)

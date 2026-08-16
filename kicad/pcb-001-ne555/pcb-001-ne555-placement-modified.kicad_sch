@@ -1795,6 +1795,12 @@
 		(uuid "061fa3f2-1701-4400-86b5-e06aa9f0ea8c")
 	)
 	(junction
+		(at 194.31 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07a0858b-0f93-424c-b840-358daf573c82")
+	)
+	(junction
 		(at 157.48 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1847,12 +1853,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca19ca78-1cf2-4d8c-9790-f9e3c7b49981")
-	)
-	(junction
-		(at 194.31 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eed2f75b-5ee1-4c60-a484-c40a88e9a1de")
 	)
 	(junction
 		(at 129.54 99.06)
@@ -2152,6 +2152,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 102.87) (xy 198.12 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "716af268-64b0-47ee-8926-1b12413d82bc")
+	)
+	(wire
+		(pts
 			(xy 186.69 102.87) (xy 194.31 102.87)
 		)
 		(stroke
@@ -2182,23 +2192,13 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 102.87) (xy 209.55 106.68)
+			(xy 207.01 102.87) (xy 207.01 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "80c7824f-45e1-4ae2-a1de-83d93c42f0ef")
-	)
-	(wire
-		(pts
-			(xy 194.31 102.87) (xy 200.66 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8584e0ec-4963-414f-a6ac-2448221fcf0e")
 	)
 	(wire
 		(pts
@@ -2352,7 +2352,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 102.87) (xy 209.55 102.87)
+			(xy 205.74 102.87) (xy 207.01 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2610,7 +2610,7 @@
 			(uuid "77913d3d-b07c-47dd-93e2-5ed56cd5dfe6")
 		)
 		(instances
-			(project "pcb-001-ne555"
+			(project "pcb-001-ne555-placement-modified"
 				(path "/b0c8241f-7280-4983-bb24-fcd4e712ed60"
 					(reference "#PWR04")
 					(unit 1)
@@ -2707,7 +2707,7 @@
 			(uuid "d30307ad-6851-4b77-8fd0-02b007d77501")
 		)
 		(instances
-			(project "pcb-001-ne555"
+			(project "pcb-001-ne555-placement-modified"
 				(path "/b0c8241f-7280-4983-bb24-fcd4e712ed60"
 					(reference "U1")
 					(unit 1)
@@ -2738,7 +2738,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 145.796 110.744 0)
+			(at 145.288 110.744 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2784,7 +2784,7 @@
 			(uuid "d3fd9c27-4c43-484b-8be3-04933bf32443")
 		)
 		(instances
-			(project "pcb-001-ne555"
+			(project "pcb-001-ne555-placement-modified"
 				(path "/b0c8241f-7280-4983-bb24-fcd4e712ed60"
 					(reference "#FLG01")
 					(unit 1)
@@ -2863,7 +2863,7 @@
 			(uuid "56053e0f-cc22-4ca8-bf8d-b4ddfce7d66a")
 		)
 		(instances
-			(project "pcb-001-ne555"
+			(project "pcb-001-ne555-placement-modified"
 				(path "/b0c8241f-7280-4983-bb24-fcd4e712ed60"
 					(reference "TP1")
 					(unit 1)
@@ -2944,7 +2944,7 @@
 			(uuid "488867c9-140b-49dc-a5c7-9f5c20d1e856")
 		)
 		(instances
-			(project "pcb-001-ne555"
+			(project "pcb-001-ne555-placement-modified"
 				(path "/b0c8241f-7280-4983-bb24-fcd4e712ed60"
 					(reference "C3")
 					(unit 1)
@@ -2954,7 +2954,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 209.55 106.68 0)
+		(at 207.01 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2965,7 +2965,7 @@
 		(fields_autoplaced yes)
 		(uuid "512cc144-0e50-49a7-a361-f605443b0b8e")
 		(property "Reference" "#PWR010"
-			(at 209.55 113.03 0)
+			(at 207.01 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2976,7 +2976,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 209.55 111.76 0)
+			(at 207.01 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2986,7 +2986,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 106.68 0)
+			(at 207.01 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2997,7 +2997,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 106.68 0)
+			(at 207.01 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3008,7 +3008,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 209.55 106.68 0)
+			(at 207.01 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3022,7 +3022,7 @@
 			(uuid "4a0a53ba-359a-4f37-9393-8f16d286b14f")
 		)
 		(instances
-			(project "pcb-001-ne555"
+			(project "pcb-001-ne555-placement-modified"
 				(path "/b0c8241f-7280-4983-bb24-fcd4e712ed60"
 					(reference "#PWR010")
 					(unit 1)
@@ -3103,7 +3103,7 @@
 			(uuid "b3528f24-da23-4254-a94b-fba086a6916d")
 		)
 		(instances
-			(project "pcb-001-ne555"
+			(project "pcb-001-ne555-placement-modified"
 				(path "/b0c8241f-7280-4983-bb24-fcd4e712ed60"
 					(reference "C2")
 					(unit 1)
@@ -3185,7 +3185,7 @@
 			(uuid "68974817-3544-4198-be7d-f420d38fcd13")
 		)
 		(instances
-			(project "pcb-001-ne555"
+			(project "pcb-001-ne555-placement-modified"
 				(path "/b0c8241f-7280-4983-bb24-fcd4e712ed60"
 					(reference "R2")
 					(unit 1)
@@ -3267,7 +3267,7 @@
 			(uuid "05d1b93a-c8ff-46e1-be74-996c0733a585")
 		)
 		(instances
-			(project "pcb-001-ne555"
+			(project "pcb-001-ne555-placement-modified"
 				(path "/b0c8241f-7280-4983-bb24-fcd4e712ed60"
 					(reference "R1")
 					(unit 1)
@@ -3346,7 +3346,7 @@
 			(uuid "855111f2-1b31-4d46-aaf0-0b8167b73239")
 		)
 		(instances
-			(project "pcb-001-ne555"
+			(project "pcb-001-ne555-placement-modified"
 				(path "/b0c8241f-7280-4983-bb24-fcd4e712ed60"
 					(reference "TP3")
 					(unit 1)
@@ -3356,7 +3356,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 204.47 102.87 90)
+		(at 201.93 102.87 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3367,7 +3367,7 @@
 		(fields_autoplaced yes)
 		(uuid "9405f483-9f10-4825-b70f-a89580f7c42b")
 		(property "Reference" "R3"
-			(at 204.47 96.52 90)
+			(at 201.93 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3377,7 +3377,7 @@
 			)
 		)
 		(property "Value" "330 Ohm"
-			(at 204.47 99.06 90)
+			(at 201.93 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3387,7 +3387,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 204.47 104.648 90)
+			(at 201.93 104.648 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3398,7 +3398,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 102.87 0)
+			(at 201.93 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3409,7 +3409,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 204.47 102.87 0)
+			(at 201.93 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3426,7 +3426,7 @@
 			(uuid "48dec01d-42b1-4582-92c9-5caec5c31b6c")
 		)
 		(instances
-			(project "pcb-001-ne555"
+			(project "pcb-001-ne555-placement-modified"
 				(path "/b0c8241f-7280-4983-bb24-fcd4e712ed60"
 					(reference "R3")
 					(unit 1)
@@ -3505,7 +3505,7 @@
 			(uuid "1ef4a9fe-6423-4908-8611-82d1d24cb5da")
 		)
 		(instances
-			(project "pcb-001-ne555"
+			(project "pcb-001-ne555-placement-modified"
 				(path "/b0c8241f-7280-4983-bb24-fcd4e712ed60"
 					(reference "TP2")
 					(unit 1)
@@ -3536,7 +3536,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 136.906 118.618 0)
+			(at 140.462 118.618 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3582,7 +3582,7 @@
 			(uuid "152a1a3e-113d-403a-8982-09d6b0425b84")
 		)
 		(instances
-			(project "pcb-001-ne555"
+			(project "pcb-001-ne555-placement-modified"
 				(path "/b0c8241f-7280-4983-bb24-fcd4e712ed60"
 					(reference "#FLG02")
 					(unit 1)
@@ -3660,7 +3660,7 @@
 			(uuid "43a3d641-512e-499d-b9ee-235b220c6c53")
 		)
 		(instances
-			(project "pcb-001-ne555"
+			(project "pcb-001-ne555-placement-modified"
 				(path "/b0c8241f-7280-4983-bb24-fcd4e712ed60"
 					(reference "#PWR02")
 					(unit 1)
@@ -3778,7 +3778,7 @@
 			(uuid "cbb0d56a-9f83-41fe-8e7b-535f3b30820a")
 		)
 		(instances
-			(project "pcb-001-ne555"
+			(project "pcb-001-ne555-placement-modified"
 				(path "/b0c8241f-7280-4983-bb24-fcd4e712ed60"
 					(reference "RV1")
 					(unit 1)
@@ -3856,7 +3856,7 @@
 			(uuid "a98c5cee-6cc8-47cc-ac00-cef98fa04702")
 		)
 		(instances
-			(project "pcb-001-ne555"
+			(project "pcb-001-ne555-placement-modified"
 				(path "/b0c8241f-7280-4983-bb24-fcd4e712ed60"
 					(reference "TP4")
 					(unit 1)
@@ -3934,7 +3934,7 @@
 			(uuid "d3e3aacc-4fbe-448d-87f2-042b0bd2a3c2")
 		)
 		(instances
-			(project "pcb-001-ne555"
+			(project "pcb-001-ne555-placement-modified"
 				(path "/b0c8241f-7280-4983-bb24-fcd4e712ed60"
 					(reference "#PWR08")
 					(unit 1)
@@ -4011,7 +4011,7 @@
 			(uuid "67dc6020-b8b5-4963-8bb6-b0e3a363be12")
 		)
 		(instances
-			(project "pcb-001-ne555"
+			(project "pcb-001-ne555-placement-modified"
 				(path "/b0c8241f-7280-4983-bb24-fcd4e712ed60"
 					(reference "#PWR07")
 					(unit 1)
@@ -4101,7 +4101,7 @@
 			(uuid "bf494cb3-cbe9-4a5a-a4a1-556aab887044")
 		)
 		(instances
-			(project "pcb-001-ne555"
+			(project "pcb-001-ne555-placement-modified"
 				(path "/b0c8241f-7280-4983-bb24-fcd4e712ed60"
 					(reference "D1")
 					(unit 1)
@@ -4179,7 +4179,7 @@
 			(uuid "c552c791-bcc6-4647-a8d0-1a5c4db15859")
 		)
 		(instances
-			(project "pcb-001-ne555"
+			(project "pcb-001-ne555-placement-modified"
 				(path "/b0c8241f-7280-4983-bb24-fcd4e712ed60"
 					(reference "#PWR05")
 					(unit 1)
@@ -4257,7 +4257,7 @@
 			(uuid "2ef3d7eb-6974-444b-9aec-9becc232d421")
 		)
 		(instances
-			(project "pcb-001-ne555"
+			(project "pcb-001-ne555-placement-modified"
 				(path "/b0c8241f-7280-4983-bb24-fcd4e712ed60"
 					(reference "#PWR03")
 					(unit 1)
@@ -4339,7 +4339,7 @@
 			(uuid "9c90d84c-d7f2-4ba4-90ef-1c44ae2d79f4")
 		)
 		(instances
-			(project "pcb-001-ne555"
+			(project "pcb-001-ne555-placement-modified"
 				(path "/b0c8241f-7280-4983-bb24-fcd4e712ed60"
 					(reference "C1")
 					(unit 1)
@@ -4417,7 +4417,7 @@
 			(uuid "8dbcf6e6-34ea-4dda-abe1-07a24384aa0b")
 		)
 		(instances
-			(project "pcb-001-ne555"
+			(project "pcb-001-ne555-placement-modified"
 				(path "/b0c8241f-7280-4983-bb24-fcd4e712ed60"
 					(reference "#PWR01")
 					(unit 1)
@@ -4498,7 +4498,7 @@
 			(uuid "213a8072-5ce0-4c22-bd3a-3d351a4445f6")
 		)
 		(instances
-			(project "pcb-001-ne555"
+			(project "pcb-001-ne555-placement-modified"
 				(path "/b0c8241f-7280-4983-bb24-fcd4e712ed60"
 					(reference "J1")
 					(unit 1)
@@ -4576,7 +4576,7 @@
 			(uuid "c68a35a5-17b7-4842-95e5-d85ae1662570")
 		)
 		(instances
-			(project "pcb-001-ne555"
+			(project "pcb-001-ne555-placement-modified"
 				(path "/b0c8241f-7280-4983-bb24-fcd4e712ed60"
 					(reference "#PWR06")
 					(unit 1)
@@ -4654,7 +4654,7 @@
 			(uuid "3c68cf92-2e56-458b-acc9-be33fa03968b")
 		)
 		(instances
-			(project "pcb-001-ne555"
+			(project "pcb-001-ne555-placement-modified"
 				(path "/b0c8241f-7280-4983-bb24-fcd4e712ed60"
 					(reference "#PWR09")
 					(unit 1)

@@ -1,7 +1,8 @@
-# LTspice transient generated netlists
+# LTspice generated netlist
 /simulation/ltspice/*.net
 
-# KiCad transient files
+# KiCad local and transient files
 /kicad/**/*-backups/
 /kicad/**/*.kicad_prl
 /kicad/**/~*.lck
+/kicad/**/_autosave-*.kicad_pcb

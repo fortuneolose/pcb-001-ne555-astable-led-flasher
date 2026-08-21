@@ -3077,7 +3077,7 @@
 				)
 			)
 		)
-		(property "Sim.Library" "C:\\Users\\avent\\OneDrive\\Documents\\pcb-001-ne555-astable-led-flasher\\kicad\\models\\uA555.sub"
+		(property "Sim.Library" "${KIPRJMOD}/../../../kicad/models/uA555.sub"
 			(at 170.18 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3798,7 +3798,7 @@
 		(at 204.47 102.87 90)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
@@ -4313,10 +4313,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d4339129-1217-4de3-960d-b67241fd6ff5")
 		(property "Reference" "RV1"
-			(at 107.9501 76.2 0)
+			(at 108.458 75.946 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4327,7 +4326,7 @@
 			)
 		)
 		(property "Value" "100 kOhm"
-			(at 105.4101 76.2 0)
+			(at 110.744 83.312 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4659,7 +4658,7 @@
 		(at 190.5 102.87 180)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
@@ -4719,6 +4718,28 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 190.5 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 190.5 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Params" "is=1e-18 rs=5 n=2"
 			(at 190.5 102.87 0)
 			(hide yes)
 			(show_name no)

@@ -1861,12 +1861,6 @@
 		(uuid "3136c382-f177-4a22-a601-a12d128c2848")
 	)
 	(junction
-		(at 134.62 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "67531d87-ce4a-44b3-bc65-5b5d7382f424")
-	)
-	(junction
 		(at 142.24 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1876,7 +1870,13 @@
 		(at 124.46 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "779e4d5f-7f56-47d6-b4a2-96227bebea7f")
+		(uuid "81efc0b8-d076-4813-9624-c68aac34120a")
+	)
+	(junction
+		(at 134.62 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82726b1b-c1fa-40fb-957f-194133b64565")
 	)
 	(junction
 		(at 139.7 109.22)
@@ -2656,7 +2656,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne555.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ne555.pdf"
 			(at 170.18 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -2669,6 +2669,72 @@
 		)
 		(property "Description" "Precision Timers, 555 compatible, PDIP-8"
 			(at 170.18 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 170.18 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "NE555P"
+			(at 170.18 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" "${KIPRJMOD}/../models/uA555.sub"
+			(at 170.18 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" "UA555"
+			(at 170.18 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 170.18 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2 3=3 4=4 5=5 6=6 7=7 8=8"
+			(at 170.18 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2910,7 +2976,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/45171/kseries.pdf"
 			(at 148.59 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -2922,6 +2988,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 148.59 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Vishay BCcomponents"
+			(at 148.59 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "K104K10X7RF53H5"
 			(at 148.59 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -3069,7 +3157,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/45171/kseries.pdf"
 			(at 160.02 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3081,6 +3169,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 160.02 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Vishay BCcomponents"
+			(at 160.02 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "K103K10X7RF53H5"
 			(at 160.02 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3128,8 +3238,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10 kOhm"
-			(at 114.046 81.026 90)
+		(property "Value" "10k"
+			(at 116.332 81.026 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3150,7 +3260,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/MFR-25FBF52-10K"
 			(at 118.11 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -3162,6 +3272,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 118.11 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 118.11 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MFR-25FBF52-10K"
 			(at 118.11 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -3209,8 +3341,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10 kOhm"
-			(at 125.222 81.026 90)
+		(property "Value" "10k"
+			(at 128.016 81.026 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3231,7 +3363,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/MFR-25FBF52-10K"
 			(at 129.54 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -3243,6 +3375,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 129.54 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 129.54 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MFR-25FBF52-10K"
 			(at 129.54 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -3388,7 +3542,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/MFR-25FBF52-330R"
 			(at 201.93 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3400,6 +3554,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 201.93 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 201.93 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MFR-25FBF52-330R"
 			(at 201.93 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3670,7 +3846,7 @@
 		(dnp no)
 		(uuid "d4339129-1217-4de3-960d-b67241fd6ff5")
 		(property "Reference" "RV1"
-			(at 110.49 82.042 90)
+			(at 111.252 81.026 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3680,8 +3856,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100 kOhm"
-			(at 111.506 75.692 90)
+		(property "Value" "100 k"
+			(at 109.22 75.438 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3702,7 +3878,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/3386.pdf"
 			(at 106.68 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -3714,6 +3890,28 @@
 			)
 		)
 		(property "Description" "Potentiometer"
+			(at 106.68 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 106.68 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "3386P-1-104LF"
 			(at 106.68 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -4049,7 +4247,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/W53LID.pdf"
 			(at 190.5 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -4061,6 +4259,28 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 190.5 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 190.5 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "L-53LID"
 			(at 190.5 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -4297,7 +4517,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/aluminum-cap-lead/models/ECEA1VKA100"
 			(at 99.06 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -4309,6 +4529,28 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 99.06 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic Industry"
+			(at 99.06 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ECEA1VKA100"
 			(at 99.06 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -4455,7 +4697,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/tb007-508.pdf"
 			(at 148.59 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -4467,6 +4709,28 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 148.59 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Same Sky"
+			(at 148.59 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TB007-508-02BE"
 			(at 148.59 114.3 0)
 			(hide yes)
 			(show_name no)
